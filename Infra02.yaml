@@ -463,7 +463,7 @@ Resources:
     Properties: 
       LaunchTemplateName: !Sub ${AWS::StackName}-launch-template
       LaunchTemplateData:
-        ImageId: ami-xxxxxxxx                                      ######## EDIT ONCE GOLD IMAGE IS CREATED ######
+        ImageId: ami-03fb94bf657ad798a                                      ######## EDIT ONCE GOLD IMAGE IS CREATED ######
         InstanceType: t3.medium
         SecurityGroupIds:
         - !Ref EC2SecurityGroup
